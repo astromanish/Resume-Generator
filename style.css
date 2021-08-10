@@ -1,0 +1,60 @@
+/* GENERAL */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to left top, blue, red);
+    color: black;
+    font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+    margin: 0;
+}
+
+.highlight{
+    font-weight: 700;
+}
+
+/* LAYOUT AND TYPOGRAPHY */
+
+.head{
+   padding-bottom: 0;
+   margin-bottom: 0;
+   font-weight: 700;
+}
+
+.sub-head{
+   padding-top: 0;
+   margin-top:0;
+}
+
+.main-container{
+    margin: 20px auto;
+    max-width: 1500px;
+    width: 95%;
+    display: none;
+}
+
+.resume{
+    background-color: white;
+}
+
+.left{
+    background-color:rgb(19, 160, 226);
+}
+
+.right{
+    height: 100vh;
+}
+.heading{
+    font-weight: 700;
+    background-color: rgb(19, 160, 226);
+}
+
+.img-container{
+    margin: 20px;
+    border-radius: 60%;
+    width: 220px;
+    height: 200px;
+}
